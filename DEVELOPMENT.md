@@ -75,6 +75,26 @@ This creates a `.vsix` file that can be installed locally or published to the ma
 
 ## Installation from .vsix
 
+If the `code` command is available:
 ```bash
 code --install-extension transylvanian-twilight-1.0.0.vsix
 ```
+
+Or use the installation script:
+```bash
+./install-theme.sh
+```
+
+If you don't have the `code` command set up, you can:
+1. Open VS Code
+2. Press `Cmd+Shift+P`
+3. Type "Extensions: Install from VSIX..."
+4. Select the `transylvanian-twilight-1.0.0.vsix` file
+
+## Setting up the `code` command
+
+To use the `code` command from terminal:
+1. Open VS Code
+2. Press `Cmd+Shift+P`
+3. Type "Shell Command: Install 'code' command in PATH"
+4. Press Enter
