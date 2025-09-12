@@ -9,6 +9,7 @@ Transylvanian Twilight captures the enchanting atmosphere of Romanian winter nig
 ## 🎨 Color Palette
 
 ### Background Stack
+
 - **Carpathian Midnight** `#0B1220` - Primary editor background
 - **Danube Depths** `#0E1628` - Sidebar, panels, and activity bar
 - **Transylvanian Shadow** `#111A2E` - Title bar, menus, dropdowns
@@ -16,6 +17,7 @@ Transylvanian Twilight captures the enchanting atmosphere of Romanian winter nig
 - **Iași Blue Hour** `#1A2442` - Selections and overlays
 
 ### Text Colors
+
 - **Cluj Snow** `#E6EDF3` - Primary text and foreground
 - **Sibiu Moonlight** `#B8C4D9` - Secondary text
 - **Bucharest Mist** `#8FA1BF` - Comments and placeholders (italic)
@@ -23,6 +25,7 @@ Transylvanian Twilight captures the enchanting atmosphere of Romanian winter nig
 - **Inkwell** `#0B1220` - Text on bright backgrounds
 
 ### Accent Colors
+
 - **Danube Delta Cyan** `#7FE9FF` - Cursors and active highlights
 - **Constanța Blue** `#4FC3F7` - Functions and links
 - **Apuseni Teal** `#2EE6A6` - Strings and success states
@@ -31,6 +34,7 @@ Transylvanian Twilight captures the enchanting atmosphere of Romanian winter nig
 - **Doina Magenta** `#FF6AD5` - Constants and special literals
 
 ### State Colors
+
 - **Carpathian Pine** `#6EE7B7` - Success
 - **Wheatfield Gold** `#F5C542` - Warnings
 - **Mărțișor Coral** `#F97070` - Errors

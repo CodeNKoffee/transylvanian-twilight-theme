@@ -5,6 +5,7 @@
 To test your Transylvanian Twilight theme in VS Code:
 
 1. **Open in VS Code**:
+
    ```bash
    code .
    ```
@@ -19,6 +20,7 @@ To test your Transylvanian Twilight theme in VS Code:
 ## Color Palette Quick Reference
 
 ### Background Stack
+
 - Carpathian Midnight: `#0B1220` (editor.background)
 - Danube Depths: `#0E1628` (sidebars, panels)
 - Transylvanian Shadow: `#111A2E` (title bar, menus)
@@ -26,12 +28,14 @@ To test your Transylvanian Twilight theme in VS Code:
 - Iași Blue Hour: `#1A2442` (selections)
 
 ### Text Colors
+
 - Cluj Snow: `#E6EDF3` (primary text)
 - Sibiu Moonlight: `#B8C4D9` (secondary text)
 - Bucharest Mist: `#8FA1BF` (comments, italic)
 - Brașov Slate: `#6C7A96` (disabled)
 
 ### Syntax Colors
+
 - Keywords/Classes: `#B69CFF` (Transylvanian Purple)
 - Functions/Links: `#4FC3F7` (Constanța Blue)
 - Strings/Success: `#2EE6A6` (Apuseni Teal)
@@ -40,6 +44,7 @@ To test your Transylvanian Twilight theme in VS Code:
 - Cursors/Highlights: `#7FE9FF` (Danube Delta Cyan)
 
 ### State Colors
+
 - Success: `#6EE7B7` (Carpathian Pine)
 - Warning: `#F5C542` (Wheatfield Gold)
 - Error: `#F97070` (Mărțișor Coral)
@@ -54,11 +59,13 @@ To test your Transylvanian Twilight theme in VS Code:
 ## Packaging for Distribution
 
 Run the package script:
+
 ```bash
 ./package-theme.sh
 ```
 
 Or manually:
+
 ```bash
 npm install -g @vscode/vsce
 vsce package
@@ -76,16 +83,19 @@ This creates a `.vsix` file that can be installed locally or published to the ma
 ## Installation from .vsix
 
 If the `code` command is available:
+
 ```bash
 code --install-extension transylvanian-twilight-1.0.0.vsix
 ```
 
 Or use the installation script:
+
 ```bash
 ./install-theme.sh
 ```
 
 If you don't have the `code` command set up, you can:
+
 1. Open VS Code
 2. Press `Cmd+Shift+P`
 3. Type "Extensions: Install from VSIX..."
@@ -94,6 +104,7 @@ If you don't have the `code` command set up, you can:
 ## Setting up the `code` command
 
 To use the `code` command from terminal:
+
 1. Open VS Code
 2. Press `Cmd+Shift+P`
 3. Type "Shell Command: Install 'code' command in PATH"
