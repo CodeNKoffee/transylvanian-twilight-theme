@@ -3,7 +3,7 @@
   "displayName": "Transylvanian Twilight",
   "description": "Your Romanian-flavored arctic palette dark mode theme; inspired by its predecessor, Polar Paradise (light mode theme)",
   "version": "1.0.6",
-  "icon": "./assets/logo.png",
+  "icon": "assets/logo.png",
   "publisher": "HatemSoliman",
   "license": "MIT",
   "author": {
